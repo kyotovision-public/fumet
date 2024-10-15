@@ -1,0 +1,13 @@
+__pycache__
+*.pyc
+*.npz
+kitti_data
+models
+venv/
+*.sif
+*.sbox
+.vscode/
+tmp/
+scripts/
+weights/
+todo.md

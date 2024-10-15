@@ -1,0 +1,12 @@
+torch==2.0.1
+torchvision==0.15.2
+tensorboard==2.18.0
+pillow==10.4.0
+protobuf==5.28.2
+timm==0.4.12
+opencv-python==4.10.0.84
+matplotlib==3.9.2
+scikit-image==0.24.0
+tqdm==4.66.5
+linear-warmup-cosine-annealing-warm-restarts-weight-decay @ git+https://github.com/saadnaeem-dev/pytorch-linear-warmup-cosine-annealing-warm-restarts-weight-decay@73bf9581977a7bef199aaf73618b37c7366debbe
+numpy==1.26.4
