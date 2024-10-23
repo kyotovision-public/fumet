@@ -3,13 +3,13 @@
 #
 # This software is licensed under the terms of the Monodepth2 licence
 # which allows for non-commercial use only, the full terms of which are made
-# available in the LICENSE file.
+# available in the license/LICENSE_Monodepth2 file.
 #
 # Modifications made by Genki Kinoshita, 2024.
 # These modifications were conducted mainly for creating a base dataset class and inheriting it.
 #
 # This modified version is also licensed under the terms of the Monodepth2
-# licence, as outlined in the LICENSE file.
+# licence, as outlined in the license/LICENSE_Monodepth2 file.
 
 from __future__ import annotations
 

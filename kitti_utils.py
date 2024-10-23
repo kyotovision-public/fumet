@@ -1,9 +1,15 @@
-# Copyright Genki Kinoshita, 2024. All rights reserved.
+# Copyright Niantic 2019. Patent Pending. All rights reserved.
 #
-# This file is part of a software package that is based on the Monodepth2
-# software, originally developed by Niantic. and distributed under the
-# Monodepth2 license. The terms of the Monodepth2 license apply to any usage
-# of this file in conjunction with the original Monodepth2 software.
+# This software is licensed under the terms of the Monodepth2 licence
+# which allows for non-commercial use only, the full terms of which are made
+# available in the license/LICENSE_Monodepth2 file.
+#
+# Modifications made by Genki Kinoshita, 2024.
+# These modifications include:
+#   - Added seed_all function
+#
+# This modified version is also licensed under the terms of the Monodepth2
+# licence, as outlined in the license/LICENSE_Monodepth2 file.
 
 import os
 from collections import Counter
