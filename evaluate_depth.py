@@ -1,3 +1,10 @@
+# Copyright Genki Kinoshita, 2024. All rights reserved.
+#
+# This file is part of a software package that is based on the Monodepth2
+# software, originally developed by Niantic. and distributed under the
+# Monodepth2 license. The terms of the Monodepth2 license apply to any usage
+# of this file in conjunction with the original Monodepth2 software.
+
 import warnings
 
 warnings.filterwarnings("ignore")
