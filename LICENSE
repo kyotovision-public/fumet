@@ -1,26 +1,19 @@
 Copyright © 2024 Genki Kinoshita
 Copyright © Niantic, Inc. 2018. Patent Pending.
+This repository includes code licensed under the Monodepth2 license as well as code licensed under the MIT License.
 
 All rights reserved.
 
-
-
 ================================================================================
 
-
-
-This Software is licensed under the terms of the following Monodepth2 license
-which allows for non-commercial use only. For any other use of the software not
-covered by the terms of this license, please contact partnerships@nianticlabs.com
-
-
+This repository includes code from Monodepth2, which is licensed under the following 
+non-commercial license. Please note that any use of the Monodepth2-related code must
+comply with this license. For any other use of the software not covered by the terms
+of this license, please contact partnerships@nianticlabs.com.
 
 ================================================================================
-
-
 
 Monodepth v2 License
-
 
     This Agreement is made by and between the Licensor and the Licensee as
 defined and identified below.
@@ -65,7 +58,6 @@ research where a commercial party obtains rights to research results or any
 other benefit. Any use of the Software for any purpose other than
 non-commercial research shall automatically terminate this License.
 
-
       2.2 The Licensee is permitted to make modifications to the Software
 provided that any distribution of such modifications is in accordance with
 Clause 3.
@@ -84,7 +76,6 @@ repository , and provided that any and every distribution is accompanied by an
 unmodified copy of this License and that the following copyright notice is
 always displayed in an obvious manner: Copyright © Niantic, Inc. 2018. All
 rights reserved.
-
 
     3.2 In the case where the Software has been modified, any distribution must
 include prominent notices indicating which files have been changed.
@@ -181,3 +172,89 @@ jurisdiction of the English courts.
     Upon termination of this Agreement, the licenses granted hereunder will
 terminate and Sections 5, 6, 7, 8, 9, 10 and 11 shall survive any termination
 of this Agreement.
+
+
+
+================================================================================
+
+This repository also includes code licensed under the MIT License from the following sources.
+
+================================================================================
+
+1. Code from VADepth (https://github.com/xjixzz/vadepth-net)
+
+MIT License
+
+Copyright (c) 2022 Jie Xiang
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+
+
+2. Code from Lite-Mono (https://github.com/noahzn/Lite-Mono)
+
+MIT License
+
+Copyright (c) 2023 Noah
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+
+
+3. Code from HR-Depth (https://github.com/shawLyu/HR-Depth)
+
+MIT License
+
+Copyright (c) 2020 shawlyu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
