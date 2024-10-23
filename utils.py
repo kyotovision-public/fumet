@@ -1,3 +1,24 @@
+# Copyright Niantic 2019. Patent Pending. All rights reserved.
+#
+# This software is licensed under the terms of the Monodepth2 licence
+# which allows for non-commercial use only, the full terms of which are made
+# available in the LICENSE file.
+#
+# Modifications made by Genki Kinoshita, 2024.
+# These modifications include:
+#   - Added compute_scaled_cam_heights() to scale camera heights with object heights
+#   - Added compute_projected_obj_heights() to compute object silhouette heights
+#   - Added signed_dist_to_horizon() to compute signed distance to horizon lines
+#   - Added calc_obj_pix_height_over_dist_to_horizon_with_flat() to compute (object pixel heights) / (distance to horizon)
+#   - Added horizon_to_2pts() to compute 2 points on horizon lines
+#   - Added masks_to_pix_heights() to compute object pixel heights from masks
+#   - Added generate_homo_pix_grid() to generate homogeneous pixel grids
+#   - Added cam_pts2normal() to compute normal vectors with pseudo inverse
+#   - Added cam_pts2cam_height_with_cross_prod() to compute normal vectors with cross product
+#
+# This modified version is also licensed under the terms of the Monodepth2
+# licence, as outlined in the LICENSE file.
+
 import torch
 
 
@@ -64,17 +85,6 @@ def compute_projected_obj_heights(
                 projected_heights_flat[idx] = segm_max - region.min()
         prev_n_inst += n_inst
     return projected_heights_flat
-
-
-def batch_vec_orthogonal_to_horizon(batch_horizon_vec: torch.Tensor) -> torch.Tensor:
-    """
-    horizon_vec: torch.Size([bs, 2]) [x, y]
-
-    return: torch.Size([bs, 2]) [x, y]
-    """
-    batch_norm = batch_horizon_vec.norm(dim=1)
-    batch_vec = batch_horizon_vec / batch_norm[:, None]
-    return batch_vec * ((batch_vec[:, 1] > 0) * 2 - 1)[:, None]  # change the sign to make y direction is positive
 
 
 def signed_dist_to_horizon(

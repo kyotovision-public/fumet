@@ -1,3 +1,6 @@
+# This file was taken from the HR-Depth repository https://github.com/shawLyu/HR-Depth,
+# which is licensed under the MIT License.
+
 import numpy as np
 import torch
 from torch import nn

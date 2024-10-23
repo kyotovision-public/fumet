@@ -1,3 +1,18 @@
+# Copyright Niantic 2019. Patent Pending. All rights reserved.
+#
+# This software is licensed under the terms of the Monodepth2 licence
+# which allows for non-commercial use only, the full terms of which are made
+# available in the LICENSE file.
+#
+# Modifications made by Genki Kinoshita, 2024.
+# These modifications include:
+#   - Added Conv1x1, ASPP, and fSEModule classes. These snippets were taken from
+#     the HR-Depth repository https://github.com/shawLyu/HR-Depth,
+#     which is licensed under the MIT License.
+#
+# This modified version is also licensed under the terms of the Monodepth2
+# licence, as outlined in the LICENSE file.
+
 import numpy as np
 import torch
 import torch.nn as nn

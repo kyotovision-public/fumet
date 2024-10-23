@@ -1,3 +1,6 @@
+# This file was taken from the Lite-Mono repository https://github.com/noahzn/Lite-Mono,
+# which is licensed under the MIT License.
+
 import math
 
 import numpy as np

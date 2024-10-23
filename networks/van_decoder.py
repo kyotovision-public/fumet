@@ -1,3 +1,6 @@
+# This file was taken from the VADepth repository https://github.com/xjixzz/vadepth-net,
+# which is licensed under the MIT License.
+
 from collections import OrderedDict
 
 import numpy as np
