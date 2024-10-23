@@ -8,7 +8,7 @@
 # These modifications include:
 #   - Added Conv1x1, ASPP, and fSEModule classes. These snippets were taken from
 #     the HR-Depth repository https://github.com/shawLyu/HR-Depth,
-#     which is licensed under the MIT License.
+#     which is the MIT-licensed software developed by shawlyu, © 2020
 #
 # This modified version is also licensed under the terms of the Monodepth2
 # licence, as outlined in the LICENSE file.

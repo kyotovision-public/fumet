@@ -1,5 +1,5 @@
 # This file was taken from the Lite-Mono repository https://github.com/noahzn/Lite-Mono,
-# which is licensed under the MIT License.
+# which is the MIT-licensed software developed by Noah, © 2023.
 
 import math
 

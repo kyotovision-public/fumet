@@ -8,7 +8,7 @@
 # These modifications include:
 #   - Added LiteMonoPoseDecoder. This snippet was taken from
 #     the Lite-Mono repository https://github.com/noahzn/Lite-Mono,
-#     which is licensed under the MIT License.
+#     which is the MIT-licensed software developed by Noah, © 2023.
 #
 # This modified version is also licensed under the terms of the Monodepth2
 # licence, as outlined in the LICENSE file.

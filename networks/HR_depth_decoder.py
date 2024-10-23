@@ -1,5 +1,5 @@
 # This file was taken from the HR-Depth repository https://github.com/shawLyu/HR-Depth,
-# which is licensed under the MIT License.
+# which is the MIT-licensed software developed by shawlyu, © 2020.
 
 import numpy as np
 import torch

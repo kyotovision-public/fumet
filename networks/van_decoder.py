@@ -1,5 +1,5 @@
 # This file was taken from the VADepth repository https://github.com/xjixzz/vadepth-net,
-# which is licensed under the MIT License.
+# which is the MIT-licensed software developed by Jie Xiang, © 2022.
 
 from collections import OrderedDict
 
