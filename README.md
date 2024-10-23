@@ -40,7 +40,7 @@ So far, we only provide the training dataset with 640x192 resolution for KITTI a
 ### KITTI
 Please refer to [the documentation of Monodepth2](https://github.com/nianticlabs/monodepth2#-kitti-training-data) to download and unzip KITTI dataset. We expect that you have converted the png images to jpeg as in Monodepth2.
 
-After downloading KITTI raw dataset, you have to download `.npz` data, which consist of car masks and their estimated heights, from [HERE](...).
+After downloading KITTI raw dataset, you have to download `.npz` data, which consist of car masks and their estimated heights, from [HERE](https://drive.google.com/file/d/1FBRbGI-ts-q-YbQh2hiGnRMPscwrTg6g/view?usp=drive_link).
 
 Then, unzip the data and move under `kitti_data` with the following command:
 ```
@@ -64,7 +64,7 @@ python prepare_train_data.py \
 ```
 We assume that the data will be stored in `/path/to/fumet/cityscapes_data`.
 
-You also have to download `.npz` data including car masks and their estimated heights from [HERE](...).
+You also have to download `.npz` data including car masks and their estimated heights from [HERE](https://drive.google.com/file/d/1L04HdtQ5z-hI_y3EmBaME6tjO8bZP7bq/view?usp=drive_link).
 After downloading, please unzip the data and move under `cityscapes_data` with the following command:
 ```
 cd /path/to/fumet
@@ -191,14 +191,15 @@ You can download the trained models from the links below. `Mix` includes [Argove
 
 | Model | Dataset | Resolution(WxH) | Intrinsics |
 |-------|---------|------------|------------|
-| [Monodepth2 R50](...) | KITTI | 640x192 | [link](intrinsics/KITTI_640x192.txt) |
-| [Lite-Mono R18](...) | KITTI | 640x192 | [link](intrinsics/KITTI_640x192.txt) |
-| [VADepth](...) | KITTI | 640x192 | [link](intrinsics/KITTI_640x192.txt) |
-| [HR-Depth R18](...) | KITTI | 640x192 | [link](intrinsics/KITTI_640x192.txt) |
-| [Monodepth2 R50](...) | Cityscapes | 512x192 | [link](intrinsics/Cityscapes_512x192.txt) |
-| [Monodepth2 R50](...) | Mix | 832x512 | [link](intrinsics/Mix_832x512.txt) |
-| [Monodepth2 R50](...) | Mix+KITTI | 832x512 | [link](intrinsics/Mix+KITTI_832x512.txt) |
-| [Monodepth2 R50](...) | Mix+KITTI+YouTube | 832x512 | [link](intrinsics/Mix+KITTI+YouTube_832x512.txt) |
+| [Monodepth2 R50](https://drive.google.com/file/d/17xe1qDJH3Cq1YO73Rp0RgjnSqLNoVuBb/view?usp=drive_link) | KITTI | 640x192 | [link](intrinsics/KITTI_640x192.txt) |
+| [Lite-Mono R18](https://drive.google.com/file/d/1W1yUxNmFD3RNdQKBX8sjK8IFsMpH_DAe/view?usp=drive_link) | KITTI | 640x192 | [link](intrinsics/KITTI_640x192.txt) |
+| [VADepth](https://drive.google.com/file/d/17aw0xKWZGA6W7TKBP--X9gw972p66t8P/view?usp=drive_link) | KITTI | 640x192 | [link](intrinsics/KITTI_640x192.txt) |
+| [HR-Depth R18](https://drive.google.com/file/d/1KmKevgJAFIOQ2jNQvJEBVZQUQTE82_uS/view?usp=drive_link) | KITTI | 640x192 | [link](intrinsics/KITTI_640x192.txt) |
+| [Monodepth2 R50](https://drive.google.com/file/d/1S1fAyG74yJpNOiMm-yuV1W1sUnsNHr_U/view?usp=drive_link) | Cityscapes | 512x192 | [link](intrinsics/Cityscapes_512x192.txt) |
+| [Monodepth2 R50](https://drive.google.com/file/d/1ou8d7yABoAbAhfOygRHrIxIzVmEPiIkT/view?usp=drive_link) | KITTI | 832x512 | [link](intrinsics/KITTI_832x512.txt) |
+| [Monodepth2 R50](https://drive.google.com/file/d/1vQHyelXeDQPjZ3LZBdk5FLBiADFaoFWz/view?usp=drive_link) | Mix | 832x512 | [link](intrinsics/Mix_832x512.txt) |
+| [Monodepth2 R50](https://drive.google.com/file/d/1soxYb8qiJgqm9IJhwUPVvyoo9odPV5Ix/view?usp=drive_link) | Mix+KITTI | 832x512 | [link](intrinsics/Mix+KITTI_832x512.txt) |
+| [Monodepth2 R50](https://drive.google.com/file/d/1z6rx2VP2-qk84HrRwhT1p0aIZwGwT4vW/view?usp=drive_link) | Mix+KITTI+YouTube | 832x512 | [link](intrinsics/Mix+KITTI+YouTube_832x512.txt) |
 
 ## Evaluation
 
